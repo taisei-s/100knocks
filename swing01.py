@@ -1,10 +1,6 @@
 # coding:utf-8
 
 def swing01(str):
-    """
-    assume str is string coding utf-8
-    return string on 1,3,5,7 of str
-    """
     return str[:7:2]
 
 

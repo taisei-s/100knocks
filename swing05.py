@@ -14,10 +14,6 @@ def word_ngram(str, n):
     return word_ngram
 
 def swing05(str):
-    """
-    assume str is "I am an NLPer"
-    return word bigram and character bigram of str
-    """
     word_bigram = word_ngram(str, 2)
     character_bigram = ngram(str, 2)
 

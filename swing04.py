@@ -1,10 +1,6 @@
 # coding:utf-8
 
 def swing04(str):
-    """
-    assume str is "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
-    return dict
-    """
     word_list = [c.strip(',.') for c in str.split()]
     single = [0, 4, 5, 6, 7, 8, 14, 15, 18]
     element_dict ={}

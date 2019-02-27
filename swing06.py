@@ -1,10 +1,6 @@
 # coding:utf-8
 
 def ngram(str, n):
-    """
-    assume str is string or list, n is int
-    return character ngram
-    """
     ngram = []
     for i in range(n, len(str)+1):
         ngram.append(str[i-n:i])
