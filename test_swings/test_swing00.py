@@ -13,7 +13,7 @@ class TestSwings(unittest.TestCase):
         expected = "desserts"
         actual = swing00(str)
 
-        self.assertEquals(expected, actual)
+        self.assertEqual(expected, actual)
 
 
 

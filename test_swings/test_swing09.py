@@ -17,7 +17,7 @@ class TestSwings(unittest.TestCase):
     def test_shuffle_inside_1(self, input, expected):
         actual = shuffle_inside(input)
 
-        self.assertEquals(expected, actual)
+        self.assertEqual(expected, actual)
 
     def test_shuffle_inside_2(self):
         word = 'abcde'
@@ -26,7 +26,7 @@ class TestSwings(unittest.TestCase):
         actual = new_word[0] + new_word[-1]
         expected = word[0] + word[-1]
 
-        self.assertEquals(expected, actual)
+        self.assertEqual(expected, actual)
 
 
     def test_swing09(self):
@@ -36,7 +36,7 @@ class TestSwings(unittest.TestCase):
         expected = len(str)
         actual = len(new_str)
 
-        self.assertEquals(expected, actual)
+        self.assertEqual(expected, actual)
 
 
 

@@ -15,7 +15,7 @@ class TestSwings(unittest.TestCase):
 
         expected = u"12時の気温は22.4"
         actual = swing07(x, y, z)
-        self.assertEquals(expected, actual)
+        self.assertEqual(expected, actual)
 
 
 

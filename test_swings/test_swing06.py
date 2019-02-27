@@ -16,7 +16,7 @@ class TestSwings(unittest.TestCase):
 
         actual = swing06(str1, str2)
 
-        self.assertEquals(expected, actual)
+        self.assertEqual(expected, actual)
 
 
 
