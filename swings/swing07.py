@@ -6,7 +6,7 @@
 """
 
 def swing07(x, y, z):
-    return unicode(x) + u"時の" + unicode(y) + u"は" + unicode(z)
+    return str(x) + u"時の" + str(y) + u"は" + str(z)
 
 
 if __name__ == "__main__":
