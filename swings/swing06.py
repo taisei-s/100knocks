@@ -13,8 +13,6 @@ def swing06(str1, str2):
     Y = set(ngram(str2, 2))
     Z = set(['se'])
 
-    print(Z)
-
     answer_list = [X|Y,  X&Y, X-Y, Z<=X, Z<=Y]
 
     return answer_list
