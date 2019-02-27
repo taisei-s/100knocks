@@ -2,6 +2,9 @@
 
 import unittest
 from parameterized import parameterized
+import sys, os
+path = os.path.join(os.path.dirname(__file__), "../swings")
+sys.path.append(path)
 from swing09 import shuffle_inside, swing09
 
 class TestSwings(unittest.TestCase):

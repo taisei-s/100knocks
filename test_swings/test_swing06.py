@@ -1,6 +1,9 @@
 # coding:utf-8
 
 import unittest
+import sys, os
+path = os.path.join(os.path.dirname(__file__), "../swings")
+sys.path.append(path)
 from swing06 import swing06
 
 class TestSwings(unittest.TestCase):
