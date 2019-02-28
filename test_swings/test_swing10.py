@@ -8,7 +8,9 @@ command:
 wc -l hightemp.txt
 """
 
+from io import StringIO
 import unittest
+from unittest.mock import patch
 import sys, os
 path = os.path.join(os.path.dirname(__file__), "../swings")
 sys.path.append(path)
@@ -16,10 +18,12 @@ from swing10 import swing10
 
 class TestSwings(unittest.TestCase):
 
-    def test_swing10(self):
+    @patch('sys.stdout', new_callable=StringIO)
+    def test_swing10(self, mock_stdout):
         sys.argv.append('../swings/hightemp.txt')
-        expected = 24
-        actual = swing10()
+        swing10()
+        expected = '24\n'
+        actual = mock_stdout.getvalue()
 
         self.assertEqual(expected, actual)
 
