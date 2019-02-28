@@ -5,7 +5,7 @@
 行数をカウントせよ．確認にはwcコマンドを用いよ．
 
 command:
-wc -l hightemp.txt
+$wc -l hightemp.txt
 """
 
 from io import StringIO
