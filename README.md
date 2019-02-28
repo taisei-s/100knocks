@@ -1,4 +1,4 @@
-# 100knocks
+# nlp100
 training python and NLP programing by under url.
 
 swings      :program of 100knocks  
