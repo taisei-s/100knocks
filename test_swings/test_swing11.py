@@ -1,4 +1,4 @@
-# coding;utf-8
+# coding:utf-8
 """
 11. タブをスペースに置換
 
